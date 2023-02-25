@@ -1,6 +1,35 @@
 # PME_API
 Simple API to manage PME members record.
 
+# Member Schema:
+
+```json
+{
+  "name": "Member name",
+  "stack": "Tech stack",
+  "interest": "General interest"
+}
+```
+
+![image](https://user-images.githubusercontent.com/92952014/221342050-4de7c671-dd7b-49dc-998e-c1ffe9b51092.png)
+
+
+# Usage:
+
+* Clone the repo
+* npm i express mongoose nodemon dotenv
+* nodemon app.js
+
+# Endpoints:
+```
+url{:port}/api/getAll //fetch all members record
+url{:port}/api/post //add a member record
+url{:port}/api/getOne/id //fetch member by ID
+url{:port}/api/update/id //update member record by ID
+url{:port}/api/delete/id //delete member record by ID
+```
+
+
 # STACK:
 
 
