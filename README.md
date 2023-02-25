@@ -21,7 +21,7 @@ Simple API to manage PME members record.
 * nodemon app.js
 
 # Endpoints:
-```
+```js
 url{:port}/api/getAll //fetch all members record
 url{:port}/api/post //add a member record
 url{:port}/api/getOne/id //fetch member by ID
